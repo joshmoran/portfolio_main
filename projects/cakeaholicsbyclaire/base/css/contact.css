@@ -1,0 +1,108 @@
+#content {
+    margin: 2em auto;
+}
+
+#content h1, #content h2 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+p:first-child {
+    text-align: justify;
+}
+
+#content p, #content ul {
+    width: 70%;
+    margin: 0 auto;
+}
+
+#content p, #content ul {
+    margin: 1em auto;
+}
+
+#message {
+    width: 90%;
+    margin: 0.5em auto 1.5em;
+}
+
+#message h3 {
+    width: 80%;
+    margin: 1em auto 0;
+}
+
+form {
+    display: flex;
+    margin: 2em auto;
+    width: 70%;
+    flex-direction: column;
+    align-content: stretch;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+label {
+    min-width: 11em;
+    border-bottom: 1px solid black;
+    text-align: center;
+    margin-bottom: 0.5em !important;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+input {
+    width: auto;
+    display: inline-flex;
+}
+
+textarea {
+    resize: none;
+}
+
+input, label {
+    padding: 0.35em;
+    margin: 0.25em;
+    display: flex;
+}
+
+input[type=submit] {
+    display: flex;
+    justify-content: space-around;
+}
+
+#errors {
+    margin: 1em auto 0;
+}
+@media screen and (min-width: 760px) {
+    form {
+        display: flex;
+        column-count: 2;
+        flex-direction: row;
+        margin: 0 auto;
+        width: 80%;
+        justify-content: space-between;
+    }
+    label {
+        width: 40%;
+
+    }
+
+    input[type=submit] {
+        margin: 1.5em auto;
+        padding: 1em;
+    }
+
+    textarea {
+        margin: 0;
+        padding: -0.5em 0;
+    }
+
+    input, select, textarea {
+        min-width: 50%;
+    }
+
+    label, input, select, textarea {
+        display: inline-flex;
+        
+    justify-content: space-around;
+    }
+}

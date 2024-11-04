@@ -1,0 +1,31 @@
+#content {
+    width: 100%;
+    display : block;
+    margin: 0.75em auto;
+}
+
+#banner {
+    display: block;
+    width: 90%;
+    height: auto;
+    display: block;
+    margin: 1.5em auto 0;
+    border: 0.5em solid darkslategrey;
+    box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+}
+
+#content p {
+    text-align: justify;
+    font-size: 1.25em;
+    width: 60%;
+    margin: 2em auto;
+    padding: 2em;
+    background-color: rgba(227, 220, 223, 0.53);
+    border: 1em solid darkgrey
+}
+
+@media screen and (min-width: 760px) {
+    #banner {
+        margin: 0.75em auto;
+    }
+}

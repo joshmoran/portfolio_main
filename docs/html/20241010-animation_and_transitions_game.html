@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation and Transition Game</title>
+    <style>
+        .score * {
+            display: inline-block;
+        }
+
+        #count {
+            font-size: 32px;
+        }
+
+        #transitionExample { 
+            width: 200px;
+            height: 200px;
+            background-color: orange;
+            position: absolute;
+            animation-name: animation;
+            animation-timing-function: cubic-bezier(0.95, 0.05, 0.795, 0.035);
+
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-out;
+
+
+        }
+
+        @keyframes animation {
+            0% {
+                top: 110%;
+                left: 90%;
+            }
+
+            10% {
+                top: 40%;
+                right: 10%;
+            }
+
+            25% {
+                top: -10%;
+                right: 20%;
+            }
+
+            50% {
+                top: 70%;
+                left: 0%;
+                transform: rotate( 360deg );
+            }
+            75% {
+                top: 100%;
+                bottom: 70%;
+            }
+
+            85% {
+                top: 10%;
+                bottom: 20%;
+            }
+
+            100% {
+                top: 110%;
+                left: 90%;
+                transform: rotate( 360deg );
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="score">
+        <h1>Your score is: </h1><p id="count">0 </p>
+    </div> 
+        <div id="transitionExample">
+   
+    </div>
+    <script>
+        let countP = document.getElementById("count");
+        let divEl = document.getElementById("transitionExample");
+        let counter = 0;
+        divEl.addEventListener("click", () => {
+            counter++;
+            countP.innerHTML = counter;
+        });
+
+    </script>
+</body>
+</html>

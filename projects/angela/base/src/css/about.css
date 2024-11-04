@@ -1,0 +1,35 @@
+#container
+{
+    margin: 0 auto;
+    width: 80%;
+    padding-left: 5%;
+    display: inline-flex;
+}
+
+#left
+{width: 50%;
+    padding: 1%;
+    margin: 1% auto 1% 5em;
+}
+
+#left img
+{
+    margin: 0 auto;
+    width:100%;
+    padding: 1%;
+    height: 26em;
+}
+
+
+#right
+{
+    width: 50%;
+    margin: 1%;
+    padding: 1%;
+
+}
+
+#right p
+{
+    text-align: justify;
+}

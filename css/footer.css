@@ -1,0 +1,49 @@
+/* Footer */
+#footer
+{
+    bottom: 0;
+    background-color: #000;;
+    margin:  0 auto;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #fff;
+    width: 100%;
+    position: fixed;
+}
+
+#footer h3, #footer img {
+    color: #fff;
+}
+#footer h3
+{
+/*    margin: 1.5em auto -0.5em auto;*/
+    text-align: center;
+
+}
+
+#footer .contact
+{
+    text-align: justify;
+    width: max-content;
+    margin: 0 auto;
+}
+
+.contactMethod
+{
+    width: 2em;
+    height: 2em;
+    margin: 0.5em;
+}
+
+.contact {
+    padding: 0;
+    margin: 0.25em;
+}
+
+.contact li
+{
+    display: inline-block;
+}
+

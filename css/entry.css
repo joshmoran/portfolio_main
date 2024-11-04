@@ -1,0 +1,41 @@
+
+
+#container {
+    display: flex;
+    flex-direction: column !important;
+}
+
+#entry {
+    width: 80%;
+    text-align: justify;
+    margin: 0 auto;
+}
+
+.button {
+    width: 100px;
+    display: table-cell;
+    padding: 1em 2em;
+    text-align: center;
+    vertical-align: central;
+    margin: 1em;
+    height: 40px;
+    background-color: grey;
+    border: 2px solid darkgrey;
+    box-shadow: 6px 6px 2px 1px rgba(0, 0, 255, .2);
+    text-decoration: none;
+    color: white;
+}
+
+h2 {
+    top: 5em;
+}
+
+
+#images img {
+    width: 80%;
+    margin: 0 10%;
+}
+
+#images h4 {
+    text-align: center;
+}

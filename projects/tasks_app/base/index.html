@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasks</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Tasks</h1>
+        <p id="error" class="errorInput"></p>
+        <h3>Number of pending tasks: <span class="numbers" id="amountOfTasks"></span></h3>
+        <h3>Number of finished tasks: <span class="numbers" id="amountOfFinishedTasks"></span></h3>
+
+        <h1>Pending</h1>
+        <div id="taskList">
+            <!-- Tasks will be dynamically generated here -->
+           
+            <div class="pendingTask"><div class="left pending"><img class="done" alt="complete task icon" src="img/square-xmark.svg"></div><div class="right"><h2 class="name">Task Number 1</h2><div class="actions"><button class="rename">Rename</button><button class="delete">Delete</button></div></div></div>
+            <div class="pendingTask"><div class="left pending"><img class="done" alt="complete task icon" src="img/square-xmark.svg"></div><div class="right"><h2 class="name">Task Number 2</h2><div class="actions"><button class="rename">Rename</button><button class="delete">Delete</button></div></div></div>
+            <div class="pendingTask"><div class="left pending"><img class="done" alt="complete task icon" src="img/square-xmark.svg"></div><div class="right"><h2 class="name">Task Number 3</h2><div class="actions"><button class="rename">Rename</button><button class="delete">Delete</button></div></div></div>    
+
+        </div>
+
+        <h1>Complete</h1>
+        <div id="completeList">
+            <div class="completeTasks"><div class="left"><img class="complete" alt="undo the task icon" src="img/square-xmark.svg"></div><div class="right"><h2 class="strikethrough">Task Number 4</h2></div></div>
+        </div>
+        <div id="add">
+            <div class="top">
+                <h1>Please add a new task</h1>
+            </div>
+            <div class="bottom">
+                <input type="text" id="taskInput" placeholder="Enter a new task">
+                <button id="addTask">Add Task</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

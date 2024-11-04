@@ -1,0 +1,61 @@
+<?php
+
+?>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="css/universal.css" />
+    <link rel="stylesheet" type="text/css" href="css/about.css" />
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <?php
+    include "inc/header.php";
+    ?>
+    <div id="container">
+
+        <p>Hi there, this is my portfolio of my current and past projects. </p>
+
+        <h2>Introduction</h2>
+        <p>I am a very hard working and dedicated individual. I have had a passion for computers since I was a child, taking apart broken electronics to see how they functions. To building, servicing and repairing computers for my family and friends during my teenage years. For the last five, I have been expanding my knowledge to the back-end of web-servers. Integrating and hosting different servers, from a simple WebDAV protocol file viewer to an email server.</p>
+
+        <h2>Programming Languages that I can use:</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>JQuery</li>
+            <li>SQL</li>
+            <li>PHP</li>
+        </ul>
+        
+        <h2>Technolgies</h2>
+        <ul>
+        	<li>AJAX</li>
+        	<li>HTTP/TCP</li>
+        	<li>DNS Server & Protocol</li>
+        	<li>Mail Server - POP3, IMAP, SMTP</li>
+     	</ul>
+     	
+     	<h2>Tools</h2>
+     	<ul>
+     		<li>VSCode</li>
+     		<li>Apache2</li>
+     		<li>Linux</li>
+     		<li>Windows</li>
+  		</ul>
+    </div>
+
+    <?php
+    include "inc/footer.php";
+    ?>
+    <script src="js/js.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Positioning</title>
+    <style>
+    .container {
+        background-color: coral;
+        padding: 20px;
+        position: relative;
+    }
+    .parent {
+        background-color: aquamarine;
+        position: relative;
+    }
+    
+    .child {
+        height: 70px;
+        width: 70%;
+    }
+    
+    /* .firstChild, .secondChild, .thirdChild {
+        height: 100px;
+    } */
+    
+    .firstChild {
+        background: brown;
+        position: relative;
+        left: 30px;
+    
+    }
+    
+    .secondChild {
+        background-color: burlywood;
+        position: absolute;
+        top: 30px;
+    }
+    
+    .thirdChild {
+        background-color: cornflowerblue;
+    }
+    </style>
+</head>
+<body>
+    <h1 class="title">CSS Position Property</h1>
+    <div class="container">
+        <div class="parent">
+            <div class="firstChild">First Child</div>
+            <div class="secondChild">Second Child</div>
+            <div class="thirdChild">Third Child</div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+Colours
+Brown: #B65949
+Light brown: #D8A25A
+Light brown shadow: #AB8147
+Light: #FEF2DC
+Extra Light: #FEF7E9
+Teal: #006361
+Teal Shadow: #0D4645
+Dark: #050505
+
+Typography
+Headings: Young Serif Regular (Google Fonts)
+Body: Open Sans (Google Fonts)
+
+About text
+I am a passionate full-stack web developer who transforms ideas into immersive digital experiences. With a blend of creativity and technical expertise, I bridge the gap between design and functionality, weaving code into seamless user journeys. My mission is to turn your vision into a reality by building web solutions that not only look stunning but also perform flawlessly. Let's embark on a digital adventure together, where innovation knows no bounds.
+As a full-stack web developer, I've been on an exciting journey, and it all began with Team Treehouse's TechDegree program. Through their comprehensive curriculum and supportive community, I've had the privilege to delve deep into the world of web development. This immersive learning experience has empowered me to craft a portfolio filled with impressive projects that showcase my skills and creativity. Thanks to Team Treehouse, I've not only gained the knowledge and expertise, but also the confidence to tackle any web development challenge that comes my way.
+
+Project text
+A Random Quote Generator
+This project was created for Treehouse's Full Stack JavaScript TechDegree. I learnt to use client-side JavaScript to store and generate a new quote every time the screen is loaded (or every 10 seconds as well). I also used CSS to change the background gradient colors to generate cool gradients with every new quote! 
+
+List Pagination and Filtering
+This project was created for Treehouse's Full Stack JavaScript TechDegree. I learnt to use client-side JavaScript to limit a list to show only 10 units at a time. This was super tricky for me to wrap my head around the maths! Pagination is such an important thing to master because it's everywhere!
+
+Interactive JavaScript Form
+I learnt to use client-side JavaScript to dynamically show or hide certain parts of a sign-up form depending on what else was selected. I also got to implement form validation using RegEx which was super cool! I had also struggled with forms before, but this project really helped!

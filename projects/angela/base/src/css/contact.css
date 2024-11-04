@@ -1,0 +1,48 @@
+#container,
+form
+{
+    display: block;
+    margin: 0 auto;
+}
+
+form
+{
+    margin: 0 auto;
+    width: 80%;
+}
+
+label,
+input
+{
+    display: block;
+
+}
+
+
+label
+{
+    float: left;
+    width: 15em;
+}
+
+input
+{
+    margin: 0.5em 0;
+}
+
+input:last-child
+{
+    margin: 1.5em 0 1.5em 12em;
+}
+
+input,
+textarea
+{
+    width: 20em;
+
+}
+
+textarea
+{
+    resize: none;
+}

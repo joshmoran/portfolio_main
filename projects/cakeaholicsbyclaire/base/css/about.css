@@ -1,0 +1,107 @@
+#content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-around;
+    width: 90%;
+    margin: 1em auto;
+}
+
+#row {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-around;
+
+}
+
+#row, #openingRow {
+    background-color: rgba(218,165, 32, 0.2);
+    border: 2px solid goldenrod;
+    margin: 0.75em auto;
+    width: 100%;
+}
+
+#left, #right {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+#openingRow {
+    flex-direction: column;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#content img {
+    max-width: 90%;
+}
+
+
+.shop {
+    width: 100%;
+    padding: 0.5em;
+    max-width: fit-content;
+}
+
+h2 {
+    text-align: center;
+    width: fit-content;
+    margin: 0 auto;
+    border-bottom: 2px solid black;
+}
+
+img {}
+
+table {
+    text-align: center;
+    margin: 1em auto 1em;     
+}
+
+th {
+    font-size: large;
+}
+
+iframe {
+    width: 90%;
+    height: 10em;
+    margin: 0.25em auto;
+    align-items: flex-end;
+    display: flex;
+}
+
+iframe:last-child {
+    margin-bottom: 1em !important;
+}
+@media screen and (min-width: 760px) {
+    #content {
+        width: 80%;
+
+    }
+    
+    #row, #openingRow {
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    #leftShop, #rightShop {
+        width: 50% !important;
+    }
+    
+
+    #left {
+        width: 35%;
+        display: flex;
+        justify-content: center;
+    }
+    #right {
+        width: 65%;
+    }
+}

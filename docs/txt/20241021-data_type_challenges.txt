@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+// TODO - ------- TASKS --------------------
+// ? Given the following code snippet:
+let result = "5" + 3 + 2; // 532
+console.log(result);
+// What is the value of result?
+// Explain why this result occurs and how JavaScript handles type conversion in this case. 
+    // String + int = string + int 
+    // int + string = int
+
+// ? Consider the following JavaScript expression:
+let numberValue = Number("Hello"); // NaN
+console.log ( numberValue );
+// What is the value of numberValue after this expression is executed?
+// Why does this result occur, and what does Number() do when it encounters a non-numeric string?
+    // Cannot convert a string to a number when their is not number on it 
+
+// ? Given the following primitive values:
+let value1 = 0;
+let value2 = " ";
+let value3 = "false";
+let value4 = null;
+let value5 = NaN;
+// Convert each value to a boolean using Boolean().
+value1 = Boolean(value1);
+value2 = Boolean(value2);
+value3 = Boolean(value3);
+value4 = Boolean(value4);
+value5 = Boolean(value5);
+// Determine whether each value converts to true or false, and explain why.
+value1 // false
+console.log( value1 );
+value2 // true 
+console.log( value2 );
+value3 // true
+console.log( value3 );
+value4 // false
+console.log( value4 );
+value5 // false
+console.log( value5 );
+
+
+// ! Template Literal
+// ! 1.
+// Create a string using a template literal that includes a person's name and age, using the variables name and age.
+let name = "Alice";
+let age = 25;
+
+// Combine these variables into a sentence like: "Alice is 25 years old."
+console.log( `${name} is ${age} years old`);
+
+// ! 2.
+// Use a template literal to create a multiline string that includes a title and two paragraphs. Assign this string to a variable and log it to the console.
+
+let title = "Introduction to JavaScript";
+let paragraph1 = "JavaScript is a versatile programming language.";
+let paragraph2 = "It is widely used for web development.";
+
+console.log( `${title}, ${paragraph1}, ${paragraph2}`);
+
+// Format the string so that the title is on one line, followed by the two paragraphs on separate lines.
+
+// ! 3.
+let firstName = "John";
+let lastName = "Doe";
+let yearOfBirth = 1990;
+let currentYear = 2024;
+// Use a template literal to create a sentence that says: "John Doe is 34 years old."
+console.log( firstName + ' ' + lastName + ' is ' + ( currentYear - yearOfBirth));
+// The age should be calculated dynamically using the yearOfBirth and currentYear variables.
+
+// ! 4.
+let product = "Laptop";
+let price = 999.99;
+let discount = 0.2;
+// Use a template literal to create a string that says: "The Laptop costs $999.99, but with a 20% discount, it's now $799.99."
+// The discounted price should be calculated directly within the template literal.
+let nowPrice = price * (1 - discount);
+console.log('The laptop costs ' + price +', but with a 20% dicsount it is now ' + nowPrice.toFixed(2));
+
+// ! Extension Activity
+// ! 5.
+// Use template literals to log a sentence to the console that introduces you and lists these favorites. For example: "Hello, I'm [Your Name]. I enjoy [Your Hobby], love eating [Your Favorite Food], and my favorite book is [Your Favorite Book]."
+
+// Saving my favorite information to variables
+let fullName = 'Josh Kelly';
+let favHobby = 'Networking with computers';
+let favFood = 'Stew';
+let favBook = 'Mike Myers CompTIA Network+';
+
+// Using template literals to output a greeting and explanation using variables declaring my favorite items (hobby, food, books)
+console.log(`Hello, I am ${fullName}. I enjoy ${favHobby}, I love eating ${favFood}  and my favorite book is ${favBook}`);
+
+// !Methods and Properties
+// In your groups research string methods and experiment with them to see how you can manipulate / work with the string data. Put together some examples.
+
+toLowerCase();
+toUpperCase();
+charAt();
+length();
+</script>
+</body>
+</meta>

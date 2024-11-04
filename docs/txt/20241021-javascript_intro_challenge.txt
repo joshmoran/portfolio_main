@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to JavaScript Challenge</title>
+</head>
+<body>
+    <script>
+        // Declare variables and assign values
+        let fastFood = 'Pizza';
+        let favColor = 'Red';
+        let favDrink = 'Lemonade';
+
+        // Output my favorite drink to the system console
+        console.log(favDrink);
+
+        // Changing my favorite food 
+        fastFood = 'Pasta';
+        // Outputting the new favorite food to the system log 
+        console.log(fastFood);
+
+        // Setting my birthday in a uneditable variable
+        const birthday = '04/10/1993';
+
+        // A variable to save my name
+        var fullName = 'Josh Kelly';
+        // Outputting my name and a greeting to the system log
+        console.log('Nice to meet you,'+ fullName + '!');
+
+        // Saving yesterdays food to variables
+        let breakfast = 'Pancakes';
+        let lunch = 'Sandwich';
+        let dinner = 'Pasta';
+
+        // Outputting yesterdays food and adding extra text to add meaning
+        console.log('Yesterday, I had '+ breakfast +' for breakfast, a ' + lunch + ' for lunch, and ' + dinner + ' for dinner.');
+
+        // Editing the variables for todays meals 
+        breakfast = 'nothing';
+        lunch = 'Not yet';
+        dinner = 'Not yet';
+
+        // Saving my favorite information to variables
+        let favHobby = 'Networking with computers';
+        let favFood = 'Stew';
+        let favBook = 'Mike Myers CompTIA Network+';
+
+        // Using template literals to output a greeting and explanation using variables declaring my favorite items (hobby, food, books)
+        console.log(`Hello, I am ${fullName}. I enjoy ${favHobby}, I love eating ${favFood}  and my favorite book is ${favBook}`);
+    </script>
+</body>
+</html>

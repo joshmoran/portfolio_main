@@ -1,0 +1,75 @@
+#contentSplit
+{
+    height: max-content;
+    display: inline-flex;
+    margin: 0 20%;
+    padding: 5px;
+    width: 80%;
+}
+
+#contentSplit div
+{
+    display: inline-flex;
+
+    margin: 0;
+    /*
+    margin: 0.5%;
+    padding: 0.5%; */
+}
+
+#leftSide
+{
+    width: max-content;
+    width: 50%;
+
+}
+
+#leftSide img
+{
+    width: 20em;
+    height: auto;
+    display: block;
+
+}
+
+#rightSide
+{
+    width: 30em;
+    height: fit-content;
+    top: 1000px;
+    margin: 0 auto 0 auto;
+}
+
+label
+{
+    width: 5em;
+    min-width: 5em;
+    display: flex;
+    height: 1.2em;
+}
+
+input
+{
+    width: 15em;
+    height: 1.2em;
+    clear: both;
+}
+
+input[type=submit]
+{
+    height: 2em;
+    width: 15em;
+    margin: 1.5em 0;
+}
+
+#cost
+{
+    border: none;
+}
+
+form
+{
+    margin: auto;
+    margin: 1.25em;
+    padding: 0.75em;
+}

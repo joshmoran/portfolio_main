@@ -1,0 +1,50 @@
+#btnImg
+{
+    margin: -3em auto 0 1em;
+    font-size: xx-large;
+}
+
+#btnImg > li
+{
+    position: relative;
+    display: inline-block;
+    /* margin: 0 auto;
+    top: -130px;
+    height: 100px; */
+    background-color: white;
+}
+
+#btnImg img
+{
+    width: 4em;
+    height: 4em;
+
+}
+
+#btnImg button
+{
+    display: block;
+    margin: 0.1%;
+    width: 5em;
+    height: 5em;
+}
+
+#banner
+{
+    width: 90%;
+    position: relative;
+    height: 25em;
+    margin: 0 5%;
+
+}
+
+#contentSplit
+{
+    display: block;
+    width: 80%;
+    margin: 3em auto 0;
+}
+
+#contentSplit p { 
+    text-align: justify;
+}

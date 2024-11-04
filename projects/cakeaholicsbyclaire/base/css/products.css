@@ -1,0 +1,90 @@
+#content {
+    width: 90%;
+    margin: 1em auto 2em;
+}
+#content > h2, #content > p {
+    text-align: center;
+}
+
+h2 {
+    width: fit-content;
+    margin: 0 auto;
+    border-bottom: 3px solid black;
+}
+
+h3 {
+    font-size: x-large;
+    border-bottom: 3px solid black;
+    width: fit-content;
+    margin: -0.5em 0 0;
+    padding: 0;
+}
+
+#allProducts, #specificProducts {
+    display: flex;
+    width: 90%;
+    margin: 0 auto 2em;
+    flex-direction: column;
+}
+
+#specificProducts {
+    margin: 0.25em auto 1em;
+}
+
+.row {
+    display: inline-flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0.75em auto;
+    background-color: rgba(218,165, 32, 0.2);
+    border: 2px solid goldenrod;
+}
+
+.left, .right {
+
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.right {
+    width: 80%;
+    padding: 2em;
+    align-content: flex-start !important;
+    align-items: flex-start !important;
+}
+
+.right ul {
+    margin: 0 auto -1em;
+}
+
+.img {
+    display: flex;
+    width: 90%;
+    border: 3px solid white;
+    margin: 0.5em auto -1em;
+}
+
+.type {
+    margin: -0.25em 0 0 0;
+    border-bottom: 1px solid black;
+    width: fit-content;
+    padding: 0;
+}
+
+@media screen and (min-width: 760px) {
+    #content {
+        width: 80%;
+    }
+
+    .left, .right {
+        widtH: 50%;
+    }
+
+    .row {
+        flex-direction: row;
+    }
+}

@@ -1,0 +1,73 @@
+@keyframes carousel {
+    0% {
+        border-color: 5px solid white;
+    }
+
+    50% {
+        border-color: 5xp solid orange;
+    }
+
+    100% {
+        border-color: 5px solid green;
+    }
+}
+
+#container {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+#banner {
+    
+    width: 960px;
+    position: absolute;
+    margin-top: 1em;
+}
+
+#notification {
+    display: none;
+    margin: 0 auto;
+    width: max-content;
+    background-color: white;
+    padding: 0.5em 1em;
+    border-radius: 30px;
+}
+
+#imageDiv {
+    z-index: 0;
+    width: 960px;
+}
+
+#carouselImg {
+    width: 960px;
+    height: 540px;
+    animation-name: carousel 3s ease-in;
+}
+
+ul img, ul input {
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+#buttons {
+    margin: -8em auto 0 auto;
+    z-index: 10;
+    width: fit-content;
+    background-color: orange;
+    opacity: 0.99;
+    border-radius: 25px;
+}
+
+#buttons ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+    padding: 0.25em;
+}
+
+#buttons ul li {
+    margin: 0.5em;
+    list-style-type: none;
+}

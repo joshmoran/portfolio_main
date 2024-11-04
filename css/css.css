@@ -1,0 +1,77 @@
+body
+{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header */
+header
+{
+    display: inline-block;
+    clear: both;
+    width: 100%;
+}
+
+#headerLeft
+{
+    margin-left: 50px;
+    float: left;
+}
+
+#headerRight
+{
+    margin-left: auto;
+    margin-right: 0;
+    text-align: right;
+}
+
+#links
+{
+    margin-right: 50px;
+    margin-top: 35px;
+}
+
+#links li
+{
+    display: inline-block;
+    width: 75px;
+    height: 25px;
+    text-align: central;
+}
+
+#links a
+{
+    text-align: center;
+}
+
+/* Footer */
+#footer
+{
+    margin: 0 auto;
+}
+
+#footer p
+{
+/*    margin: 1.5em auto -0.5em auto;*/
+    text-align: center;
+}
+
+#footer .contact
+{
+    text-align: justify;
+    width: max-content;
+    margin: 0 auto;
+}
+
+.contactMethod
+{
+    width: 2em;
+    height: 2em;
+    margin: 0.5em;
+}
+
+.contact li
+{
+    display: inline-block;
+}
+

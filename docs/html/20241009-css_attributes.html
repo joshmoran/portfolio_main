@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Attributes</title>
+    <style>
+
+        form {
+            width: fit-content;
+        }
+
+
+        label {
+            display: inline-block;
+            min-width: 150px;
+            padding: 0.5em;
+        }
+
+        input {
+            left: 0px;
+            position: relative;
+        }
+        input[name=email] {
+            background-color: red;
+        }
+
+        label[for=firstName] {
+            color: darkmagenta;
+        }  
+
+        input[type=submit] {
+            color: green;
+        }
+
+        [name] {
+            background-color: orange;
+        }
+
+        input[type=checkbox] {
+            height: 25px;
+            width: 25px;
+        }
+
+        input[type=submit] {
+            width: 300px;
+            height: 30px;
+            background-color: yellow;
+        }
+
+        h1[lang=en] {
+            color: darkgreen;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1 lang="en">Registration Page</h1>
+    <p></p>
+    <form>
+        <label for="firstName"> First name</label>
+        <input name="firstName" />
+        <br />
+        <label for="secondName"> Second name</label>
+        <input name="secondName" />
+        <br />
+        <label for="email">Email</label>
+        <input type="email" name="email" />
+        <br />
+        <label for="password">Password</label>
+        <input name="password" />
+        <br />
+        <label for="passwordConfirm">Confirm Password</label>
+        <input name="passwordConfirm" />
+        <br />
+        <br />
+        <label for="agree">Agree to out terms and conditions</label>
+        <input type="checkbox">
+        <br />
+        <br />
+        <input type="submit" value="Submit" />
+    </form>
+</body>
+</html>

@@ -1,0 +1,802 @@
+[
+	{
+		"no": "1",
+		"name": "I am a sympathetic person.",
+		"answers": {
+			"True now and when I was young": 0,
+			"True only now": 1,
+			"True only when I was younger": 2,
+			"Never True": 3
+		}
+	},
+	{
+		"no": "2",
+		"name": "I often use words and phrases from movies and television in conversaions.",
+		"answers": {
+			"True now and when I was young": 3,
+			"True only now": 2,
+			"True only when I was younger": 1,
+			"Never True": 0
+		}
+	},
+	{
+		"no": "3",
+		"name": "I am often surprised when others tell me I have been rude.",
+		"answers": {
+			"True now and when I was young": 3,
+			"True only now": 2,
+			"True only when I was younger": 1,
+			"Never True": 0
+		}
+	},
+	{
+		"no": "4",
+		"name": "Sometimes I talk too loudly or too softly, and I am not aware of it.",
+		"answers": {
+			"True now and when I was young": 3,
+			"True only now": 2,
+			"True only when I was younger": 1,
+			"Never True": 0
+		}
+	},
+	{
+		"no": "5",
+		"name": "I often don't know how to act in social situations.",
+		"answers": {
+			"True now and when I was young": 3,
+			"True only now": 2,
+			"True only when I was younger": 1,
+			"Never True": 0
+		}
+	},
+	{
+		"no": "6",
+		"name": "I can 'put myself in other peoples shoes'.",
+		"answers": {
+			"True now and when I was young": 0,
+			"True only now": 1,
+			"True only when I was younger": 2,
+			"Never True": 3
+		}
+	},
+	{
+		"no": "7",
+		"name": "I have a hard time figuring out what some phrases mean, like 'you are the apple of my eye'.",
+		"answers": {
+			"True now and when I was young": 3,
+			"True only now": 2,
+			"True only when I was younger": 1,
+			"Never True": 0
+		}
+	},
+	{
+		"no": "8",
+		"name": "I only like to talk to people who share my special interests.",
+		"answers": {
+			"True now and when I was young": 3,
+			"True only now": 2,
+			"True only when I was younger": 1,
+			"Never True": 0
+		}
+	},
+	{
+		"no": "9",
+		"name": "I focus on details rather than the overall idea.",
+		"answers": {
+			"True now and when I was young": 3,
+			"True only now": 2,
+			"True only when I was younger": 1,
+			"Never True": 0
+		}
+	},
+	{
+		"no": "10",
+		"name": "I always notice how food feels in my mouth. This is more important to me than how it tastes.",
+		"answers": {
+			"True now and when I was young": 3,
+			"True only now": 2,
+			"True only when I was younger": 1,
+			"Never True": 0
+		}
+	},
+	{
+		"no": "11",
+		"name": "I miss my best friends or family when we are apart for a long time.",
+		"answers": {
+			"True now and when I was young": 0,
+			"True only now": 1,
+			"True only when I was younger": 2,
+			"Never True": 3
+		}
+	},
+	{
+		"no": "12",
+		"name": "Sometimes I offend others by saying what I am thinking, even if I don't mean to.",
+		"answers": {
+			"True now and when I was young": 3,
+			"True only now": 2,
+			"True only when I was younger": 1,
+			"Never True": 0
+		}
+	},
+	{
+		"no": "13",
+		"name": "I only like to think and talk about a few things that interest me.",
+		"answers": {
+			"True now and when I was young": 3,
+			"True only now": 2,
+			"True only when I was younger": 1,
+			"Never True": 0
+		}
+	},
+	{
+		"no": "14",
+		"name": "I'd rather go out to eat in a restaurant by myself than with someone I know.",
+		"answers": {
+			"True now and when I was young": 3,
+			"True only now": 2,
+			"True only when I was younger": 1,
+			"Never True": 0
+		}
+	},
+	{
+		"no": "15",
+		"name": "I cannot imagine what it would be like to be someone else.",
+		"answers": {
+			"True now and when I was young": 3,
+			"True only now": 2,
+			"True only when I was younger": 1,
+			"Never True": 0
+		}
+	},
+	{
+		"no": "16",
+		"name": "I have been told that I am clumsy or uncoordinated.",
+		"answers": {
+			"True now and when I was young": 3,
+			"True only now": 2,
+			"True only when I was younger": 1,
+			"Never True": 0
+		}
+	},
+	{
+		"no": "17",
+		"name": "Others consider me odd or different.",
+		"answers": {
+			"True now and when I was young": 3,
+			"True only now": 2,
+			"True only when I was younger": 1,
+			"Never True": 0
+		}
+	},
+	{
+		"no": "18",
+		"name": "I understand when friends need to be comforted.",
+		"answers": {
+			"True now and when I was young": 0,
+			"True only now": 1,
+			"True only when I was younger": 2,
+			"Never True": 3
+		}
+	},
+	{
+		"no": "19",
+		"name": "I am very sensitive to the way my clothes feel when I touch them. How they feel is more important to me than how they look.",
+		"answers": {
+			"True now and when I was young": 3,
+			"True only now": 2,
+			"True only when I was younger": 1,
+			"Never True": 0
+		}
+	},
+	{
+		"no": "20",
+		"name": "I like to copy the way certain people speak and act. It helps me appear more normal.",
+		"answers": {
+			"True now and when I was young": 3,
+			"True only now": 2,
+			"True only when I was younger": 1,
+			"Never True": 0
+		}
+	},
+	{
+		"no": "21",
+		"name": "It can be very intimidating for me to talk to more than one person at the same time.",
+		"answers": {
+			"True now and when I was young": 3,
+			"True only now": 2,
+			"True only when I was younger": 1,
+			"Never True": 0
+		}
+	},
+	{
+		"no": "22",
+		"name": "I have to 'act normal' to please other people and make them like me.",
+		"answers": {
+			"True now and when I was young": 3,
+			"True only now": 2,
+			"True only when I was younger": 1,
+			"Never True": 0
+		}
+	},
+	{
+		"no": "23",
+		"name": "Meeting new people is usually easy for me.",
+		"answers": {
+			"True now and when I was young": 0,
+			"True only now": 1,
+			"True only when I was younger": 2,
+			"Never True": 3
+		}
+	},
+	{
+		"no": "24",
+		"name": "I get highly confused when someone interrupts me when I am talking about something I am interested in.",
+		"answers": {
+			"True now and when I was young": 3,
+			"True only now": 2,
+			"True only when I was younger": 1,
+			"Never True": 0
+		}
+	},
+	{
+		"no": "25",
+		"name": "It is difficult for me to understand how other people are feeling when we are talking.",
+		"answers": {
+			"True now and when I was young": 3,
+			"True only now": 2,
+			"True only when I was younger": 1,
+			"Never True": 0
+		}
+	},
+	{
+		"no": "26",
+		"name": "I like having a conversation with several people, for instance around a dinner table, at school or at work",
+		"answers": {
+			"True now and when I was young": 0,
+			"True only now": 1,
+			"True only when I was younger": 2,
+			"Never True": 3
+		}
+	},
+	{
+		"no": "27",
+		"name": "I take things too literally, so I often miss what people are trying to say.",
+		"answers": {
+			"True now and when I was young": 3,
+			"True only now": 2,
+			"True only when I was younger": 1,
+			"Never True": 0
+		}
+	},
+	{
+		"no": "28",
+		"name": "It is very difficult for me to understand when someone is embarrassed or jealous.",
+		"answers": {
+			"True now and when I was young": 3,
+			"True only now": 2,
+			"True only when I was younger": 1,
+			"Never True": 0
+		}
+	},
+	{
+		"no": "29",
+		"name": "Some ordinary textures that do not bother others feel very offensive when they touch my skin.",
+		"answers": {
+			"True now and when I was young": 3,
+			"True only now": 2,
+			"True only when I was younger": 1,
+			"Never True": 0
+		}
+	},
+	{
+		"no": "30",
+		"name": "I get extremely upset when the way I like to do things is suddenly changed.",
+		"answers": {
+			"True now and when I was young": 3,
+			"True only now": 2,
+			"True only when I was younger": 1,
+			"Never True": 0
+		}
+	},
+	{
+		"no": "31",
+		"name": "I have never wanted or needed to have what other people call an 'intimate relationship'.",
+		"answers": {
+			"True now and when I was young": 3,
+			"True only now": 2,
+			"True only when I was younger": 1,
+			"Never True": 0
+		}
+	},
+	{
+		"no": "32",
+		"name": "It is difficult for me to start and stop a conversation. I need to keep going until I am finished.",
+		"answers": {
+			"True now and when I was young": 3,
+			"True only now": 2,
+			"True only when I was younger": 1,
+			"Never True": 0
+		}
+	},
+	{
+		"no": "33",
+		"name": "I speak with a normal thythm",
+		"answers": {
+			"True now and when I was young": 0,
+			"True only now": 1,
+			"True only when I was younger": 2,
+			"Never True": 3
+		}
+	},
+	{
+		"no": "34",
+		"name": "The same sound, color or texture can suddenly change from very sensitive to very dull.",
+		"answers": {
+			"True now and when I was young": 3,
+			"True only now": 2,
+			"True only when I was younger": 1,
+			"Never True": 0
+		}
+	},
+	{
+		"no": "35",
+		"name": "The phrase 'Ive got you under my skin' makes me very uncomfortable.",
+		"answers": {
+			"True now and when I was young": 3,
+			"True only now": 2,
+			"True only when I was younger": 1,
+			"Never True": 0
+		}
+	},
+	{
+		"no": "36",
+		"name": "Sometimes the sound of a word or a high-pitched noise can be painful to be ears.",
+		"answers": {
+			"True now and when I was young": 3,
+			"True only now": 2,
+			"True only when I was younger": 1,
+			"Never True": 0
+		}
+	},
+	{
+		"no": "37",
+		"name": "I am an understanding type of person.",
+		"answers": {
+			"True now and when I was young": 0,
+			"True only now": 1,
+			"True only when I was younger": 2,
+			"Never True": 3
+		}
+	},
+	{
+		"no": "38",
+		"name": "I do not connect with characters in movies and cannot feel what they feel.",
+		"answers": {
+			"True now and when I was young": 3,
+			"True only now": 2,
+			"True only when I was younger": 1,
+			"Never True": 0
+		}
+	},
+	{
+		"no": "39",
+		"name": "I cannot tell when someone is flirting with me.",
+		"answers": {
+			"True now and when I was young": 3,
+			"True only now": 2,
+			"True only when I was younger": 1,
+			"Never True": 0
+		}
+	},
+	{
+		"no": "40",
+		"name": "I can see in my mind in exact detail things that I am interested in.",
+		"answers": {
+			"True now and when I was young": 3,
+			"True only now": 2,
+			"True only when I was younger": 1,
+			"Never True": 0
+		}
+	},
+	{
+		"no": "41",
+		"name": "I keep lists of things that interest me, even when they have no practical use (for example: sports statistics, train schedules, calendar dates, historical facts and dates).",
+		"answers": {
+			"True now and when I was young": 3,
+			"True only now": 2,
+			"True only when I was younger": 1,
+			"Never True": 0
+		}
+	},
+	{
+		"no": "42",
+		"name": "When I feel overwhelmed by my senses, I have to isolate myself to shut them down.",
+		"answers": {
+			"True now and when I was young": 3,
+			"True only now": 2,
+			"True only when I was younger": 1,
+			"Never True": 0
+		}
+	},
+	{
+		"no": "43",
+		"name": "I like to talk things over with my friends.",
+		"answers": {
+			"True now and when I was young": 0,
+			"True only now": 1,
+			"True only when I was younger": 2,
+			"Never True": 3
+		}
+	},
+	{
+		"no": "44",
+		"name": "I cannot tell if someone is interested or bored with what I am saying.",
+		"answers": {
+			"True now and when I was young": 3,
+			"True only now": 2,
+			"True only when I was younger": 1,
+			"Never True": 0
+		}
+	},
+	{
+		"no": "45",
+		"name": "It can be very hard to read someone's face, hand and body movements when they are talking.",
+		"answers": {
+			"True now and when I was young": 3,
+			"True only now": 2,
+			"True only when I was younger": 1,
+			"Never True": 0
+		}
+	},
+	{
+		"no": "46",
+		"name": "The same thing (like clothes or temperatures) can feel very difficult to me at different times.",
+		"answers": {
+			"True now and when I was young": 3,
+			"True only now": 2,
+			"True only when I was younger": 1,
+			"Never True": 0
+		}
+	},
+	{
+		"no": "47",
+		"name": "I feel very comfortable with dating or being in social situations with others.",
+		"answers": {
+			"True now and when I was young": 0,
+			"True only now": 1,
+			"True only when I was younger": 2,
+			"Never True": 3
+		}
+	},
+	{
+		"no": "48",
+		"name": "I try to be as helpful as I can when other people tell me their personal problems.",
+		"answers": {
+			"True now and when I was young": 0,
+			"True only now": 1,
+			"True only when I was younger": 2,
+			"Never True": 3
+		}
+	},
+	{
+		"no": "49",
+		"name": "I have been told that I have an unusual voice (for example flat, monotone, childish, or high-pitched).",
+		"answers": {
+			"True now and when I was young": 3,
+			"True only now": 2,
+			"True only when I was younger": 1,
+			"Never True": 0
+		}
+	},
+	{
+		"no": "50",
+		"name": "Sometimes a thought or a subject gets stuck in my mind and I have to talk about it even if no one is interested.",
+		"answers": {
+			"True now and when I was young": 3,
+			"True only now": 2,
+			"True only when I was younger": 1,
+			"Never True": 0
+		}
+	},
+	{
+		"no": "51",
+		"name": "I do certain things with my hands over and over again (like flapping, twirling sticks or strings, waving things by my eyes).",
+		"answers": {
+			"True now and when I was young": 3,
+			"True only now": 2,
+			"True only when I was younger": 1,
+			"Never True": 0
+		}
+	},
+	{
+		"no": "52",
+		"name": "I have never been interested in what most of the people I know consider interesting.",
+		"answers": {
+			"True now and when I was young": 3,
+			"True only now": 2,
+			"True only when I was younger": 1,
+			"Never True": 0
+		}
+	},
+	{
+		"no": "53",
+		"name": "I am considered in a compassionate type of person.",
+		"answers": {
+			"True now and when I was young": 0,
+			"True only now": 1,
+			"True only when I was younger": 2,
+			"Never True": 3
+		}
+	},
+	{
+		"no": "54",
+		"name": "I get along with other people by following a set of specific tules that help me look normal.",
+		"answers": {
+			"True now and when I was young": 3,
+			"True only now": 2,
+			"True only when I was younger": 1,
+			"Never True": 0
+		}
+	},
+	{
+		"no": "55",
+		"name": "It is very difficult for me to work and function in groups.",
+		"answers": {
+			"True now and when I was young": 3,
+			"True only now": 2,
+			"True only when I was younger": 1,
+			"Never True": 0
+		}
+	},
+	{
+		"no": "56",
+		"name": "When I am talking to someone, it is hard to change the subject. If the other person does so, I can get very upset or confused.",
+		"answers": {
+			"True now and when I was young": 3,
+			"True only now": 2,
+			"True only when I was younger": 1,
+			"Never True": 0
+		}
+	},
+	{
+		"no": "57",
+		"name": "Sometimes I have to cover my ears to block out painful noises (like vacuum cleaners or people talking too much or too loudly).",
+		"answers": {
+			"True now and when I was young": 3,
+			"True only now": 2,
+			"True only when I was younger": 1,
+			"Never True": 0
+		}
+	},
+	{
+		"no": "58",
+		"name": "I can chat and make small talk with people.",
+		"answers": {
+			"True now and when I was young": 0,
+			"True only now": 1,
+			"True only when I was younger": 2,
+			"Never True": 3
+		}
+	},
+	{
+		"no": "59",
+		"name": "Sometimes things that should feel painful are not (for instance when I hurt myself or burn my hand on a stove).",
+		"answers": {
+			"True now and when I was young": 3,
+			"True only now": 2,
+			"True only when I was younger": 1,
+			"Never True": 0
+		}
+	},
+	{
+		"no": "60",
+		"name": "When talking to someone, I have a hard time telling when it is my turn to talk or to listen.",
+		"answers": {
+			"True now and when I was young": 3,
+			"True only now": 2,
+			"True only when I was younger": 1,
+			"Never True": 0
+		}
+	},
+	{
+		"no": "61",
+		"name": "I am considered a loner by those who know me best.",
+		"answers": {
+			"True now and when I was young": 3,
+			"True only now": 2,
+			"True only when I was younger": 1,
+			"Never True": 0
+		}
+	},
+	{
+		"no": "62",
+		"name": "I usually speak in a normal tone.",
+		"answers": {
+			"True now and when I was young": 0,
+			"True only now": 1,
+			"True only when I was younger": 2,
+			"Never True": 3
+		}
+	},
+	{
+		"no": "63",
+		"name": "I like things to be exactly the same day after day and even small changes in my routine upsets me.",
+		"answers": {
+			"True now and when I was young": 3,
+			"True only now": 2,
+			"True only when I was younger": 1,
+			"Never True": 0
+		}
+	},
+	{
+		"no": "64",
+		"name": "How to make friends and socialise is a mystery to me.",
+		"answers": {
+			"True now and when I was young": 3,
+			"True only now": 2,
+			"True only when I was younger": 1,
+			"Never True": 0
+		}
+	},
+	{
+		"no": "65",
+		"name": "It calms me to spin around or to rock in a chair when I am feeling stressed.",
+		"answers": {
+			"True now and when I was young": 3,
+			"True only now": 2,
+			"True only when I was younger": 1,
+			"Never True": 0
+		}
+	},
+	{
+		"no": "66",
+		"name": "The phrase, 'He wears his heart on his sleeve,' does not make sense to me.",
+		"answers": {
+			"True now and when I was young": 3,
+			"True only now": 2,
+			"True only when I was younger": 1,
+			"Never True": 0
+		}
+	},
+	{
+		"no": "67",
+		"name": "If I am in a place where they are many smells, textures or feel, noises or bright lights, I feel anxious or frightened.",
+		"answers": {
+			"True now and when I was young": 3,
+			"True only now": 2,
+			"True only when I was younger": 1,
+			"Never True": 0
+		}
+	},
+	{
+		"no": "68",
+		"name": "I can tell when someone say one thing but mean something else.",
+		"answers": {
+			"True now and when I was young": 0,
+			"True only now": 1,
+			"True only when I was younger": 2,
+			"Never True": 3
+		}
+	},
+	{
+		"no": "69",
+		"name": "I like to be by myself as much as I can.",
+		"answers": {
+			"True now and when I was young": 3,
+			"True only now": 2,
+			"True only when I was younger": 1,
+			"Never True": 0
+		}
+	},
+	{
+		"no": "70",
+		"name": "I keep my thoughts stacked in my memory like they are on a filling cards, and I pick out the ones I need by looking through the stack and finding the right one (or another unqique way).",
+		"answers": {
+			"True now and when I was young": 3,
+			"True only now": 2,
+			"True only when I was younger": 1,
+			"Never True": 0
+		}
+	},
+	{
+		"no": "71",
+		"name": "The same sound sometimes seems very loud or very soft, even though I know it has not changed.",
+		"answers": {
+			"True now and when I was young": 3,
+			"True only now": 2,
+			"True only when I was younger": 1,
+			"Never True": 0
+		}
+	},
+	{
+		"no": "72",
+		"name": "I enjoy spending time eating and talking with my friends and family.",
+		"answers": {
+			"True now and when I was young": 0,
+			"True only now": 1,
+			"True only when I was younger": 2,
+			"Never True": 3
+		}
+	},
+	{
+		"no": "73",
+		"name": "I can't tolderate things I dislike (like smells, textures, sounds or colors).",
+		"answers": {
+			"True now and when I was young": 3,
+			"True only now": 2,
+			"True only when I was younger": 1,
+			"Never True": 0
+		}
+	},
+	{
+		"no": "74",
+		"name": "I don't like to be hugged or held.",
+		"answers": {
+			"True now and when I was young": 3,
+			"True only now": 2,
+			"True only when I was younger": 1,
+			"Never True": 0
+		}
+	},
+	{
+		"no": "75",
+		"name": "When I go somewhere, I have to follow a familiar route or I can get very confused and upset.",
+		"answers": {
+			"True now and when I was young": 3,
+			"True only now": 2,
+			"True only when I was younger": 1,
+			"Never True": 0
+		}
+	},
+	{
+		"no": "76",
+		"name": "It is difficult to figure out what other people expect of me.",
+		"answers": {
+			"True now and when I was young": 3,
+			"True only now": 2,
+			"True only when I was younger": 1,
+			"Never True": 0
+		}
+	},
+	{
+		"no": "77",
+		"name": "I like to have close friends.",
+		"answers": {
+			"True now and when I was young": 0,
+			"True only now": 1,
+			"True only when I was younger": 2,
+			"Never True": 3
+		}
+	},
+	{
+		"no": "78",
+		"name": "People tell me that I give too much detail.",
+		"answers": {
+			"True now and when I was young": 3,
+			"True only now": 2,
+			"True only when I was younger": 1,
+			"Never True": 0
+		}
+	},
+	{
+		"no": "79",
+		"name": "I am often told that I ask embarrassing questions.",
+		"answers": {
+			"True now and when I was young": 3,
+			"True only now": 2,
+			"True only when I was younger": 1,
+			"Never True": 0
+		}
+	},
+	{
+		"no": "80",
+		"name": "I tend to point out other people's mistakes.",
+		"answers": {
+			"True now and when I was young": 3,
+			"True only now": 2,
+			"True only when I was younger": 1,
+			"Never True": 0
+		}
+	}
+]

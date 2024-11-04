@@ -1,0 +1,51 @@
+.doc {
+    width: 80%;
+    margin: 0.5em auto;
+    padding: 1em;
+    max-width: 90%;
+    display: flexbox;
+    flex-basis: content;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+#container {
+    display: flex;
+    width: 40em;
+    flex-direction: column !important;
+    background-color: lemonchiffon;
+    margin: 0 auto;
+    padding: 1em;
+    box-shadow: 0 0 2px 5px #555;   
+}
+
+#docItems {
+    background-color: lemonchiffon;
+}
+aside{
+    width: 100%;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+}
+iframe  {
+    font-size: x-small;
+}
+
+h3 {
+    text-decoration:  underline;
+    font-size: large;
+}
+
+.sourcecode {
+    text-decoration: none;
+}
+
+footer {
+    width: 100%;
+}

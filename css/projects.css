@@ -1,0 +1,124 @@
+#container {
+    flex-direction: column !important;
+}
+
+#container > h2
+{
+    width: 21%;
+    padding: 1%;
+    margin: 1%;
+}
+
+#container > p
+{
+    width: 71%;
+    padding: 1%;
+    margin: 1%;
+
+}
+
+.itemProject {
+    width: 100%;
+}
+
+.itemProject > div {
+    width: 100%;
+}
+
+.projectsImg
+{
+    margin: 0 auto;
+    width: 80%;
+    width: 100%;
+    height: fit-content;
+    border: 2px solid #891652
+}
+
+
+#left,
+#right
+{
+    /* width: 40%; */
+    margin: 0.5em;
+    padding: 1%;
+}
+
+#right
+{
+    flex-direction: column !important;
+}
+
+h1, h2 { 
+    width: 100%;
+}
+
+.categoryTitle h1 {
+    text-decoration: underline;
+    text-align: center;
+}
+
+#right p
+{
+    display: block;
+}
+
+#right a {
+    color: #FFEDD8;
+    text-decoration: none;
+    background-color: #891652;
+    padding: 0.25em 0.5em;
+    border-radius: 10px;
+    margin: 0.25em 0.25em;
+}
+
+#right a:hover {
+    background-color: #EABDD8;
+    color: #240a34;
+}
+
+.itemProject
+{
+    display: flex;
+    margin: 0.5em auto;
+    width: 80%;
+    flex-direction: column;
+}
+
+.projectLinks {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.projectLinks a {
+    margin: 0.5em auto;
+    text-align: center;
+    margin: 0.5em;
+    width: 60%;
+}
+
+#container h1:first-child {
+    text-align: center;
+}
+
+.categoryTitle { 
+    text-decoration: underline;
+    text-align: center;
+}
+
+@media screen and (min-width: 540px ) {
+    .itemProject {
+        flex-direction: row;
+    }
+
+    .itemProject > div {
+        width: 50%;
+    }
+
+    .projectLinks {
+        flex-direction: row;
+    }
+}
+

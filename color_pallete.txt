@@ -1,0 +1,34 @@
+
+#FFBE98
+#FEECE2
+#F7DED0
+#E2BFB3
+rgb(255, 190, 152)
+rgb(254, 236, 226)
+rgb(247, 222, 208)
+rgb(226, 191, 179)
+OrangePeachLightWarmPastelSkinCoffee
+
+
+
+
+#900C3F
+#C70039
+#F94C10
+#F8DE22
+rgb(144, 12, 63)
+rgb(199, 0, 57)
+rgb(249, 76, 16)
+rgb(248, 222, 34)
+
+
+
+
+#8E7AB5
+#B784B7
+#E493B3
+#EEA5A6
+rgb(142, 122, 181)
+rgb(183, 132, 183)
+rgb(228, 147, 179)
+rgb(238, 165, 166)
