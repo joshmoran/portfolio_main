@@ -12,7 +12,14 @@ if ( $file =='moredetails.php'){
 ?>
 <header id="header">
     <div class="flex row" id="headerLeft">
-        <h1>Josh Kelly's Portfolio</h1>
+        <h1><img 
+        <?php 
+        if ($file == 'index.php' || $file == 'about.php' || $file == 'projects.php'  ){
+            echo 'src="img/code.png"';
+        } else if ($file == 'moredetails.php') {
+            echo 'src="../../../img/code.png"';
+        }        
+        ?> alt="Code Symbol" />  Josh Kelly</h1>
     </div>
     <nav id="headerRight">
         <div id="links">

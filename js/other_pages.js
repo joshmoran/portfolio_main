@@ -7,19 +7,16 @@ let footer = document.getElementById('footer');
 let headerHeight = header.offsetHeight;
 let windowHeight = window.innerHeight;
 let containerHeight = container.offsetHeight;
-let footerHeight = footer.offsetHeight;Height = footer.offsetHeight;
-
-
+let footerHeight = footer.offsetHeight;
 
 // alert( header.offsetHeight );
-window.addEventListener('change', changeDimentsions );
+window.addEventListener('resize', changeDimentsions );
 
 window.addEventListener('load', changeDimentsions );
 
 function changeDimentsions() {
-    container.style.marginTop = Number( headerHeight + 25 ) + 'px';
-    
-    container.style.marginBottom = Number( footerHeight + 25 ) + 'px';
+    container.style.marginTop = Number( headerHeight + 50) + 'px';
+    container.style.marginBottom = Number( footerHeight - 55 ) + 'px';
     header.style.top = 0;
 
 }

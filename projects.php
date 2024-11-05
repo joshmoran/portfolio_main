@@ -29,7 +29,7 @@
                 <p>This will be my description for the project</p>
                 <p><strong>Progress: </strong> in progress</p>
                 <div class="projectLinks">
-                    <a href="projects/cakeaholicsbyclaire/base/index.php" target="_blank">View Website</a>
+                    <a href="projects/cakeaholicsbyclaire/base/index.php" target="_blank">View Project</a>
                     <a href="projects/cakeaholicsbyclaire/docs/moredetails.php">More Information</a>
                 </div>
             </div>
@@ -43,7 +43,7 @@
                 <p>A e-commerce website.</p>
                 <p><strong>Progress: </strong> complete</p>
                 <div class="projectLinks">
-                    <a href="projects/angela/base/index.php" target="_blank">View Website</a>
+                    <a href="projects/angela/base/index.php" target="_blank">View Project</a>
                     <a href="projects/angela/docs/moredetails.php">More Information</a>
                 </div>
             </div>
@@ -58,6 +58,7 @@
                 <p>A simple calculator created using ReactJS</p>
                 <p><strong>Progress: </strong>Finished</p>
                 <div class="projectLinks">
+                    <a href="projects/tasks_app/base/index.html" target="_blank">View Website</a>
                     <a href="projects/calculator/docs/moredetails.php">More Information</a>
                 </div>
             </div>

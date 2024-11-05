@@ -16,12 +16,15 @@
     include "inc/header.php";
     ?>
 
-    <div id="container" class="flex column">
+    <div id="container" class="flex row">
+        <div id="left">
             <img src="img/cover_photo.jpg" alt="" />
-            <h2>Hello and welcome to my portfolio!</h2>
+        </div>
+        <div id="right">
             <h2>Front and Backend Developer</h2>
-            <a  class="cvLink" href="src/cv.pdf" target="_parent">Download My CV</a></p>
-    
+            <p>Helping clients <span>develop</span>, <span>build</span> and <span>deploy</span> your digital products</p>
+            <a class="cvLink" href="src/cv.pdf" target="_parent">Download My CV</a>
+        </div>
     </div>
 
     <?php

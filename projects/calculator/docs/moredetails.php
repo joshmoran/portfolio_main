@@ -19,7 +19,8 @@
     include "../../../inc/header.php";
     ?>
     <div id="container">
-        <div id="actions">
+        <div id="actions">        
+            <a href="../base/index.php" target="_blank">View Project</a>
             <a href="../../../projects.php">Back to Projects</a>
         </div> 
 

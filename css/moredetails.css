@@ -80,3 +80,11 @@ h3 {
     width: 10em;
     height: 3em;
 }
+
+.reference { 
+    padding: 0.25em !important;
+}
+
+span:first-child {
+    font-style: italic;
+}

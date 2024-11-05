@@ -41,14 +41,18 @@
         </ul>
 
         <h3>References</h3>
-        <p>I have followed the guidelines for this project through a PDF available through <a href="https://www.autistichub.com/raads-r-autism-online-test-questionnaire-pdf/" target="_blank">Autism hub</a>.</p>
-        <p>A PDF copy can be found <a href="https://www.autistichub.com/wp-content/uploads/2022/11/RAADS-R-Autism-Test.pdf" target="_self">here.</a></p>
-        <a href="https://github.com/joshmoran/Autism-AQ-Test" alt="Autism RAADS-R Test Repository" target="_blank">View Code on Github</a>
+        <p>I have followed the guidelines for this project through a PDF available through.</p>
+        <a class="reference" href="https://www.autistichub.com/raads-r-autism-online-test-questionnaire-pdf/" target="_blank">Autism hub</a>
+        <p>A PDF copy can be found.</p>
+        <a class="reference" href="https://www.autistichub.com/wp-content/uploads/2022/11/RAADS-R-Autism-Test.pdf" target="_self">Backup Copy</a>
+
+        <h3>Source Code</h3>
+        <a href="https://github.com/joshmoran/Autism-AQ-Test" alt="View the Autism RAADS-R Test Repository on github" target="_blank">View on Github</a>
     </div>
     <?php
     include "../../../inc/footer.php";
     ?>
-    <script src="../../../js/other_pages.js"></script>
+    <script src="../../../js/other_pages.js" defer></script>
 </body>
 
 </html

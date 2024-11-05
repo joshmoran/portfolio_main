@@ -1,16 +1,17 @@
+
+
 /* Footer */
 #footer
 {
-    bottom: 0;
-    background-color: #000;;
-    margin:  0 auto;
+    background-color: #000;
     padding: 0;
     width: 100%;
     display: flex;
     flex-direction: column;
-    border-top: 1px solid #fff;
+    border-top: 1px solid whitesmoke;
     width: 100%;
-    position: fixed;
+    position: flex;
+    margin-top: auto;
 }
 
 #footer h3, #footer img {

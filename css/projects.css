@@ -19,6 +19,8 @@
 
 .itemProject {
     width: 100%;
+    /* border: 1px solid #fff; */
+    border-radius: 10px;
 }
 
 .itemProject > div {
@@ -41,6 +43,11 @@
     /* width: 40%; */
     margin: 0.5em;
     padding: 1%;
+}
+
+#left {  
+    display: flex;
+    align-items: center;
 }
 
 #right
@@ -96,7 +103,7 @@ h1, h2 {
     margin: 0.5em auto;
     text-align: center;
     margin: 0.5em;
-    width: 60%;
+    width: 100%;
 }
 
 #container h1:first-child {
