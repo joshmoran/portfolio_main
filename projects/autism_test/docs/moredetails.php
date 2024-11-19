@@ -26,6 +26,8 @@
         </div>
         <h2>RAADS-R Questionnaire</h2>
 
+        <span>A simple multiple choice questionnaire to see if you might be Neurodivergent</span>
+
         <h3>Reason for project</h3>
         <p>As someone who is diagnosed as autistic, I personally found diagnosis hard to accept/question that I was on the spectrum. My mind would bounce from 'im not', to 'i am' and make me question who I was as a person and as a human. Therefor, I have created this project for anyone who suspects they are on the spectrum and whether or not they need to be seen and accessed by a qualified professional. This test gives a result based on an individuals answers and scores them in ranges.</p>
 

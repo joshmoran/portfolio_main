@@ -58,7 +58,7 @@
                 <p>A simple calculator created using ReactJS</p>
                 <p><strong>Progress: </strong>Finished</p>
                 <div class="projectLinks">
-                    <a href="projects/tasks_app/base/index.html" target="_blank">View Website</a>
+                    <a href="projects/calculator/base/index.html" target="_blank">View Task</a>
                     <a href="projects/calculator/docs/moredetails.php">More Information</a>
                 </div>
             </div>
@@ -72,7 +72,7 @@
                 <p>A simple tasks app created using vanilla JavaScript</p>
                 <p><strong>Progress: </strong>Finished</p>
                 <div class="projectLinks">
-                    <a href="projects/tasks_app/base/index.html" target="_blank">View Website</a>
+                    <a href="projects/tasks_app/base/index.html" target="_blank">View Task</a>
                     <a href="projects/tasks_app/docs/moredetails.php">More Information</a>
                 </div>
             </div>
@@ -86,7 +86,7 @@
                 <p>A simple carousel gallery created using van</p>
                 <p><strong>Progress: </strong>Finished</p>
                 <div class="projectLinks">
-                    <a href="projects/carousel/base/index.html" target="_blank">View Website</a>
+                    <a href="projects/carousel/base/index.html" target="_blank">View Task</a>
                     <a href="projects/carousel/docs/moredetails.php">More Information</a>
                 </div>
             </div>
@@ -100,7 +100,7 @@
                 <p>A simple counter using vanilla JavaScript</p>
                 <p><strong>Progress: </strong>Finished</p>
                 <div class="projectLinks">
-                    <a href="projects/counter/base/index.html" target="_blank">View Website</a>
+                    <a href="projects/counter/base/index.html" target="_blank">View Task</a>
                     <a href="projects/counter/docs/moredetails.php">More Information</a>
                 </div>  
             </div>
@@ -114,7 +114,7 @@
                 <p>This will be my description for the project</p>
                 <p><strong>Progress: </strong> complete</p>
                 <div class="projectLinks">
-                    <a href="projects/autism_test/base/index.php" target="_blank">View Website</a>
+                    <a href="projects/autism_test/base/index.php" target="_blank">View Task</a>
                     <a href="projects/autism_test/docs/moredetails.php">More Information</a>
                 </div>  
             </div>

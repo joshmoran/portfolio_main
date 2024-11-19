@@ -20,7 +20,7 @@ window.addEventListener('load', changeDimensions );
 
 function changeDimensions() {
 
-    alert( windowHeight);
+    // alert( windowHeight);
     container.style.marginTop = Number( ( windowHeight - containerHeight ) / 2 ) + 'px';
     header.style.top = 0;
 
