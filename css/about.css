@@ -68,3 +68,9 @@ br {
 h2 + p, p + p {
     text-align: justify;
 }
+
+strong {
+    font-weight: 900;
+    color: slategrey;
+    /* border: 10px solid black./; */
+}

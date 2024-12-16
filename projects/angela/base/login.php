@@ -36,7 +36,7 @@ if (isset($_POST['login'])) {
 			$sqlOrders = "SELECT order_id, customer_id FROM orders WHERE customer_id = '$customerID' AND complete = false";
 			$orderQuery = mysqli_query($db, $sqlOrders);
 			$basketID = mysqli_fetch_column($orderQuery, 0);
-
+			echo $basketID;
 			if (mysqli_num_rows($orderQuery) < 1) {
 				do {
 					$no = randomNumber();
@@ -51,23 +51,30 @@ if (isset($_POST['login'])) {
 				$_SESSION['basket_id'] = mysqli_fetch_column($orderQuery, 0);
 			}
 
-			
 			foreach ($passwordQuery as $row){
-				var_dump($row);
+				$_SESSION['customer_id'] = $row['customer_id'];
+				$_SESSION['username'] = $row['username'];
+				if ( $row['username'] === 'joshuakelly' ) {
+					$_SESSION['admin'] = true;
+				} else {
+					$_SESSION['admin'] = false;
+				}
 			}
 
-			$_SESSION['username'] = $username;
-			$_SESSION['customer_id'] = $customerID;
 			$_SESSION['basket_id'] = $basketID;
 			$_SESSION['loggedIn'] = true;
-			$_SESSION['admin'] = true;
+			if ( $_SESSION['username'] === 'joshuakelly' ) {
+				$_SESSION['admin'] = true;
+			} else {
+				$_SESSION['admin'] = false;
+			}
+			
 
 			setcookie("customer_id", $row['customer_id'], time() + 3600 );
 			setcookie('basket_id', $basketID, time() + 3600);
 			setcookie('username', $_POST['username'], time() + 3600);
 			$_COOKIE['loggedIn'] = true;
 			setcookie("admin", false, time() + 3600);
-			// header("Location: account.php");
 
 			$error_message = 'It has been matched and verified';
 			header('location: account.php');

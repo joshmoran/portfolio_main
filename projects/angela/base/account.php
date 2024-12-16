@@ -6,6 +6,12 @@ require 'src/database.php';
 if ($_SESSION['loggedIn'] == false || !isset($_SESSION['loggedIn'])) {
     header("Location: login.php");
 }
+
+if ( !isset( $_SESSION['admin'] ) && $_SESSION['username'] != 'joshuakelly' ){
+    $_SESSION['admin'] = false;
+} else { 
+    echo $_SESSION['admin'] ;
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -50,7 +56,7 @@ if ($_SESSION['loggedIn'] == false || !isset($_SESSION['loggedIn'])) {
         <a href="account_orders.php"><button>Your Orders</button></a>
         <br>
         <?php
-        if ($_SESSION['admin']) {
+        if ( isset($_SESSION['admin']) && $_SESSION['admin'] == true) {
             echo '<br>';
             echo '<a href="account_admin.php"><button>View pending orders</button></a>';
         }

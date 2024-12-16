@@ -19,15 +19,16 @@
     ?>
     <div id="container">
         <h2 class="heading">Introduction</h2>
-        <p>I am a very hard working and dedicated individual. I have had a passion for computers since I was a child, taking apart broken electronics to see how they functions. To building, servicing and repairing computers for my family and friends during my teenage years. For the last five, I have been expanding my knowledge to the back-end of web-servers. Integrating and hosting different servers, from a simple WebDAV protocol file viewer to an email server.</p>
+        <!-- <p>I am a very hard working and dedicated individual. I have had a passion for computers since I was a child, taking apart broken electronics to see how they functions. To building, servicing and repairing computers for my family and friends during my teenage years. For the last five, I have been expanding my knowledge to the back-end of web-servers. Integrating and hosting different servers, from a simple WebDAV protocol file viewer to an email server.</p> -->
 
         <p>I am a passionate and dedicated developer with experience with front and back end developer technologies. I have developed a broad and extensive library of knowledge helping me develop websites and web applications for my clients.</p> 
 
         <p>The start of my journey started as a child taking apart broken electronics, progressing into diagnosing and repairing hardware and software faults. Expanding into system administration using advanced Linux applications such as Iptables, Fail2Ban, Apache2 Server, PHP8.2-FPM and many others. Combining the knowledge of a network and system technician with my developer knowledge really aids my attention to detail, critical thinking and problem solving and problem analysis.</p>
 
-        <p>Front end development has given me an extensive understanding of the pinnacle nature of why the users are to be first and foremost when developing and building a solution. Understanding the target demographic, morals and beliefs can further the design, layout and content. Furthermore, understanding accessibility and designing a solution that is within the User Experience (UE) and User Interface (UI) of the clients specifications.</p>
+        
+        <p><strong>Front end development</strong> has given me an extensive understanding of the pinnacle nature of why the users are to be first and foremost when developing and building a solution. Understanding the target demographic, morals and beliefs can further the design, layout and content. Furthermore, understanding accessibility and designing a solution that is within the User Experience (UE) and User Interface (UI) of the clients specifications.</p>
 
-        <p>Back end development has allowed me to integrate system administration with website development. Integrating database solutions and APIs into my projects to allow website applications to be built. Certainly when I was  building an e-commerce website, it has  given me a comprehensive knowledge and skills to further this and develop more challenging and advanced websites.</p>
+        <p><strong>Back end development</strong> has allowed me to integrate system administration with website development. Integrating database solutions and APIs into my projects to allow website applications to be built. Certainly when I was  building an e-commerce website, it has  given me a comprehensive knowledge and skills to further this and develop more challenging and advanced websites.</p>
 
         <h2 class="heading">Programming Languages:</h2>
         <div class="flex row">

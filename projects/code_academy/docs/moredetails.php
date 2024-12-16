@@ -24,26 +24,36 @@
             <a href="../../../projects.php"><button>Back to Projects</button></a>
 
         </div>
-        <h2>Code Academy Clone</h2>
+        <h2>Code Academy</h2>
+        <span><em>A copy of the landing page CodeAcademy uses</em></span>
 
-        <h3>Reason for project</h3>
-        <p>As someone who is diagnosed as autistic, I personally found diagnosis hard to accept/question that I was on the spectrum. My mind would bounce from 'im not', to 'i am' and make me question who I was as a person and as a human. Therefor, I have created this project for anyone who suspects they are on the spectrum and whether or not they need to be seen and accessed by a qualified professional. This test gives a result based on an individuals answers and scores them in ranges.</p>
+        <h3>Reasons for this project</h3>
+        <p>This project is for the HTML and CSS technical training for the Software Development Bootcamp from JustIT.</p>
 
-        <h3>Clients Specifications and Features</h3>
-        <ul>
-            <li>To be able to click one answer for each question, out of the four possible answers. </li>
-            <li>Using a JSON formatted document to create the input for the questionnaire.</li>
-            <li>To answer questions, submit the form and return a result based on the users answers.</li>
-            <li>If answers are missed, it lets the user know which question has been missed.</li>
-            <li>Results are saved through PHP sessions.</li>
-            <li>Existing answers are saved into session variables and are selected when the page loads.</li>
-            <li>Clicking any part of the answer cell (label, td or parent td) can click the radio button.</li>
-        </ul>
+        <h3>Specifications and Requirements</h3>
+        <ol>
+            <li>Selection of website</li>
+            <li>Analysis and planning</li>
+            <ul>
+                <li>Structure and design</li>
+                <li>Styling</li>
+                <li>Developer tools</li>
+            </ul>
+            <li>Development</li>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Focus on Design</li>
+            </ul>
+        </ol>
 
-        <h3>References</h3>
-        <p>I have followed the guidelines for this project through a PDF available through <a href="https://www.autistichub.com/raads-r-autism-online-test-questionnaire-pdf/" target="_blank">Autism hub</a>.</p>
-        <p>A PDF copy can be found <a href="https://www.autistichub.com/wp-content/uploads/2022/11/RAADS-R-Autism-Test.pdf" target="_self">here.</a></p>
-        <a href="https://github.com/joshmoran/Autism-AQ-Test" alt="Autism RAADS-R Test Repository" target="_blank">View Code on Github</a>
+        <h3>Outcomes</h3>
+        <p>This project has been a challenge and have taught me to learn, revise and expenses my knowledge in certain areas of CSS, such as media queries. So, there is still some work to be made before it can be close to the one CodeAcademy employs on their landing page. It has been a challenging task to develop, but it has helped me to review weaker areas and grow and expand them. I really had fun with this task. 
+
+        <h3>Source Code and References</h3>
+        <p><strong>All colour schemes, layouts, images and everything else is the property of <a href="https://www.codecademy.com/" alt="Code Academy Webpage">CodeAcademy</a></strong></p>
+        <a href="https://github.com/joshmoran/justit_assignment1" alt="CodeAcademy Landing Page Repository" target="_blank">View on Github</a>
+        <a href="project_details.pdf" alt="Task Outline for duplicating a landing page">View Task </a>
     </div>
     <?php
     include "../../../inc/footer.php";
