@@ -71,10 +71,11 @@ echo $_GET['message']
                 <input type="email" id="email" name="email" placeholder="johnsmith@provider.co.uk" required>
                 <input type="text" id="subject" name="subject" placeholder="Information and advice" required>
                 <textarea id="message" name="message" placeholder="I am in need of a website developed for my business. Is this something you can do? Looking forward to hearing from you soon." required></textarea>
+                <input type="submit" value="Submit">
               </div>
             </div>
 
-            <input type="submit" value="Submit">
+            
           </form>
         </div>
 

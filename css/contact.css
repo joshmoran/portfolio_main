@@ -46,10 +46,11 @@ input:focus, textarea:focus {
 
 input[type=submit] {
   padding: 0.5em;
-  width: 50%;
-  margin: 1em auto 2em auto;
+  width: 60%;
+  /* margin: 1em auto 2em auto; */
   background-color: #891652;
   color: #fff;
+  border-radius: 10px;
 }
 
 input[type=submit]:hover {
