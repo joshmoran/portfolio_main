@@ -67,10 +67,10 @@ echo $_GET['message']
                 <label for="message">Message</label>
               </div>
               <div id="formRight" class="flex column">
-                <input type="text" id="name" name="name" required>
-                <input type="email" id="email" name="email" required>
-                <input type="text" id="subject" name="subject" required>
-                <textarea id="message" name="message" required></textarea>
+                <input type="text" id="name" name="name" placeholder="John Smith" required>
+                <input type="email" id="email" name="email" placeholder="johnsmith@provider.co.uk" required>
+                <input type="text" id="subject" name="subject" placeholder="Information and advice" required>
+                <textarea id="message" name="message" placeholder="I am in need of a website developed for my business. Is this something you can do? Looking forward to hearing from you soon." required></textarea>
               </div>
             </div>
 

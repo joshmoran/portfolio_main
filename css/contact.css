@@ -2,11 +2,31 @@ h3, input[type=submit] {
   text-align: center;
 }
 
+.contactLinks {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#contactForm, form {
+  margin: 0 auto;
+  width: 90%;
+}
+
+#formContent {
+  width: 100%;
+}
+
+
+
 form {
   width: 90%;
   display: flex;
   flex-direction: column;
 
+}
+
+#formRight {
+  width: 60%;
 }
 
 label,input, textarea {
@@ -15,18 +35,19 @@ label,input, textarea {
 }
 
 textarea {
-  height: 20em;
+  height: 15em;
 }
 
 input:focus, textarea:focus {
-  background-color: #891652;
-  color: #fff;
+  border: 5px solid #891652;
+  background-color: lightcyan;
+  color: #000;
 }
 
 input[type=submit] {
   padding: 0.5em;
   width: 50%;
-  margin: 1em auto 0.5em auto;
+  margin: 1em auto 2em auto;
   background-color: #891652;
   color: #fff;
 }
