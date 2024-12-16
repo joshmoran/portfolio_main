@@ -16,8 +16,8 @@ if ( $file =='moredetails.php'){
         <li><a href="mailto:josh@lovingfamily.co.uk" target="_blank"><img src="/img/footer/pngkey.com-mail-white-png-4297053.png" class="contactMethod" /></a></li>
         <li><a href="https://github.com/joshmoran" target="_blank"><img src="/img/footer/github.svg" class="contactMethod" /></a></li>
         <li><a href="https://teamtreehouse.com/profiles/joshkelly4" target="_blank"><img src="/img/footer/treehouse.png" class="contactMethod" /></a></li>
-        <li><a href="mailto:josh@lovingfamily.co.uk" target="_blank"><img src="/img/footer/linkedin.svg" class="contactMethod" /></a></li>
+        <li><a href="https://www.linkedin.com/in/joshua-kelly-92a321310/" target="_blank"><img src="/img/footer/linkedin.svg" class="contactMethod" /></a></li>
     </ul>
 </div>
 
-<script src="../js/container.js"></script>
+<script src="../js/other_pages.js"></script>

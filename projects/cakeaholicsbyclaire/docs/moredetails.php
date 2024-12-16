@@ -46,8 +46,7 @@
 
 
         <h3>Source Code and References</h3>
-        <h1>need to add</h1>
-        <a href="https://github.com/joshmoran/justit_assignment1" alt="CodeAcademy Landing Page Repository" target="_blank">View on Github</a>
+        <a href="https://github.com/joshmoran/cakeaholics" alt="CodeAcademy Landing Page Repository" target="_blank">View on Github</a>
     </div>
     <?php
     include "../../../inc/footer.php";

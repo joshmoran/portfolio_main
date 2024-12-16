@@ -33,7 +33,7 @@
                 <div class="projectLinks">
                     <a href="projects/cakeaholicsbyclaire/base/index.php" target="_blank">View Project</a>
                     <a href="projects/cakeaholicsbyclaire/docs/moredetails.php">More Information</a>
-                    <a href="">View on GitHub</a>
+                    <a href="https://github.com/joshmoran/cakeaholics" target="_blank">View on GitHub</a>
                 </div>
             </div>
         </div>
@@ -49,7 +49,7 @@
                 <div class="projectLinks">
                     <a href="projects/angela/base/index.php" target="_blank">View Project</a>
                     <a href="projects/angela/docs/moredetails.php">More Information</a>
-                    <a href="">View on GitHub</a>
+                    <a href="https://github.com/joshmoran/angeleas_website/" target="_black">View on GitHub</a>
                 </div>
             </div>
         </div>
@@ -67,7 +67,7 @@
                 <p><strong>Progress: </strong> Completed</p>
                 <div class="projectLinks">
                     <a href="projects/python-weather/docs/moredetails.php">More Information</a>
-                    <a href="">View on GitHub</a>
+                    <a href="https://github.com/joshmoran/python-weather" target="_black">View on GitHub</a>
                 </div>
             </div>
         </div>
@@ -82,7 +82,7 @@
                 <p><strong>Progress: </strong> Completed</p>
                 <div class="projectLinks">
                     <a href="projects/python-quiz/docs/moredetails.php">More Information</a>
-                    <a href="">View on GitHub</a>
+                    <a href="https://github.com/joshmoran/python-quiz" target="_blank">View on GitHub</a>
                 </div>
             </div>
         </div>
@@ -97,7 +97,7 @@
                 <p><strong>Progress: </strong> Completed</p>
                 <div class="projectLinks">
                     <a href="projects/python-music_playlist/docs/moredetails.php">More Information</a>
-                    <a href="">View on GitHub</a>
+                    <a href="https://github.com/joshmoran/python-music_playlist" target="_blank">View on GitHub</a>
                 </div>
             </div>
         </div>
@@ -112,7 +112,7 @@
                 <p><strong>Progress: </strong> Completed</p>
                 <div class="projectLinks">
                     <a href="projects/python-expense_tracker/docs/moredetails.php">More Information</a>
-                    <a href="">View on GitHub</a>
+                    <a href="https://github.com/joshmoran/expense-tracker" target="_blank">View on GitHub</a>
                 </div>
             </div>
         </div>
@@ -128,7 +128,7 @@
                 <div class="projectLinks">
                     <a href="projects/code_academy/base/index.html" target="_blank">View Task</a>
                     <a href="projects/code_academy/docs/moredetails.php">More Information</a>
-                    <a href="">View on GitHub</a>
+                    <a href="https://github.com/joshmoran/justit_assignment1" target="_blank">View on GitHub</a>
                 </div>
             </div>
         </div>
@@ -144,7 +144,7 @@
                 <div class="projectLinks">
                     <a href="projects/calculator/base/index.html" target="_blank">View Task</a>
                     <a href="projects/calculator/docs/moredetails.php">More Information</a>
-                    <a href="">View on GitHub</a>
+                    <a href="https://github.com/joshmoran/calculator" target="_blank">View on GitHub</a>
                 </div>
             </div>
         </div>
@@ -160,7 +160,7 @@
                 <div class="projectLinks">
                     <a href="projects/tasks_app/base/index.html" target="_blank">View Task</a>
                     <a href="projects/tasks_app/docs/moredetails.php">More Information</a>
-                    <a href="">View on GitHub</a>
+                    <a href="https://github.com/joshmoran/tasks_app" target="_blank">View on GitHub</a>
                 </div>
             </div>
         </div>
@@ -176,7 +176,7 @@
                 <div class="projectLinks">
                     <a href="projects/carousel/base/index.html" target="_blank">View Task</a>
                     <a href="projects/carousel/docs/moredetails.php">More Information</a>
-                    <a href="">View on GitHub</a>
+                    <a href="https://github.com/joshmoran/carousel" target="_blank">View on GitHub</a>
                 </div>
             </div>
         </div>
@@ -192,7 +192,7 @@
                 <div class="projectLinks">
                     <a href="projects/counter/base/index.html" target="_blank">View Task</a>
                     <a href="projects/counter/docs/moredetails.php">More Information</a>
-                    <a href="">View on GitHub</a>
+                    <a href="https://github.com/joshmoran/counter" target="_blank">View on GitHub</a>
                 </div>  
             </div>
         </div>
@@ -208,7 +208,7 @@
                 <div class="projectLinks">
                     <a href="projects/autism_test/base/index.php" target="_blank">View Task</a>
                     <a href="projects/autism_test/docs/moredetails.php">More Information</a>
-                    <a href="">View on GitHub</a>
+                    <a href="https://github.com/joshmoran/Autism-AQ-Test" target="_blank">View on GitHub</a>
                 </div>  
             </div>
         </div>

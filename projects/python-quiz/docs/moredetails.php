@@ -9,18 +9,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
+    <link type="text/css" rel="stylesheet" href="../../../css/universal.css">
     <link type="text/css" rel="stylesheet" href="../../../css/moredetails.css">
-    <link type="text/css" rel="stylesheet" href="../../../css/css.css">
-    <title></title>
+    <title>Josh's Tasks - Quiz</title>
 </head>
 
 <body>
     <?php
     include "../../../inc/header.php";
     ?>
-    <div id="container">
+    <div id="container" class="flex row">
         <div id="actions">
-            <a href="../../../projects.php"><button>Back to Projects</button></a>
+            <a href="../../../projects.php">Back to Projects</a>
         </div>
         <h2>Quiz</h2>
         <span><em>A simple quiz game in Python</em></span>
@@ -48,11 +48,9 @@
 
         <h3>Source Code and References</h3>
         <a href="https://github.com/joshmoran/python-quiz" alt="Quiz Repository" target="_blank">View on Github</a>
-        <a href="project_details.pdf" alt="Task Outline for Quiz">View Task </a>
     </div>
-    <!-- <?php
-            include "../../../inc/footer.php";
-            ?> -->
+    <?php include "../../../inc/footer.php"; ?> 
+    <script src="../../../js/other_pages.js"></script>
 </body>
 
 </html

@@ -9,9 +9,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
+    <link type="text/css" rel="stylesheet" href="../../../css/universal.css">
     <link type="text/css" rel="stylesheet" href="../../../css/moredetails.css">
-    <link type="text/css" rel="stylesheet" href="../../../css/css.css">
-    <title></title>
+    <title>Josh's Tasks - Weather</title>
 </head>
 
 <body>
@@ -19,8 +19,8 @@
     include "../../../inc/header.php";
     ?>
     <div id="container">
-        <div id="actions">
-            <a href="../../../projects.php"><button>Back to Projects</button></a>
+        <div id="actions" class="flex row">
+            <a href="../../../projects.php">Back to Projects</a>
         </div>
             
         <h2>Weather</h2>
@@ -33,7 +33,7 @@
         <p>These are our requirements for the Python Task </p>
         <ol>
             <li>Welcome Message</li>
-            <li>User Input/li>
+            <li>User Input</li>
             <li>Fetch weather data - hardcoded JSON data</li>
             <li>Display weather data</li>
             <ul>
@@ -54,11 +54,9 @@
 
         <h3>Source Code and References</h3>
         <a href="https://github.com/joshmoran/python-weather" alt="Weather Repository" target="_blank">View on Github</a>
-        <a href="project_details.pdf" alt="Task Outline for Weather">View Task </a>
     </div>
-    <!-- <?php
-            include "../../../inc/footer.php";
-            ?> -->
+    <?php include "../../../inc/footer.php"; ?>
+    <script src="../../../js/other_pages.js"></script>
 </body>
 
 </html

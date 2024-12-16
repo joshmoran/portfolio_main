@@ -78,5 +78,4 @@
     ?>
     <script src="../../../js/other_pages.js"></script>
 </body>
-
 </html
