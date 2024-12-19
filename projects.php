@@ -23,6 +23,39 @@
         <h2 class="categoryTitle">Projects</h2>
         <div class="itemProject">
             <div id="left">
+                <img src="img/ticket_system.png" class="projectsImg" alt="" />
+            </div>
+            <div id="right">
+                <h2>Ticket System</h2>
+                <p>A website designed for managing, organizing and resolving tickets.</p>
+                <p><strong>Front-EndLanguages: </strong> ReactJS, CSS and JavaScript</p>
+                <p><strong>Backend Languages: </strong> NodeJS (API) and SQL (Data)</p>
+                <p><strong>Progress: </strong> Completed</p>
+                <div class="projectLinks">
+                    <a href="projects/ticket_system/docs/moredetails.php">More Information</a>
+                    <a href="https://github.com/joshmoran/ticket-system-frontend" target="_blank">View on GitHub - Frontend</a>
+                    <a href="https://github.com/joshmoran/ticket-system-backend" target="_blank">View on GitHub - Backend</a>
+                </div>
+            </div>
+        </div>
+        <div class="itemProject">
+            <div id="left">
+                <img src="img/todo_flask.png" class="projectsImg" alt="" />
+            </div>
+            <div id="right">
+                <h2>ToDo List</h2>
+                <p>A simple task management system.</p>
+                <p><strong>Languages: </strong> Python, Flask, HTML, CSS, JavaScript and SQL</p>
+                <p><strong>Progress: </strong> Completed</p>
+                <div class="projectLinks">
+                    <a href="https://todo-flask-z4xg.onrender.com/" target="_blank" rel="noopener noreferrer">View Project</a>
+                    <a href="projects/todo_flask/docs/moredetails.php">More Information</a>
+                    <a href="https://github.com/joshmoran/todo_flask" target="_blank">View on GitHub</a>
+                </div>
+            </div>
+        </div>
+        <div class="itemProject">
+            <div id="left">
                 <img src="img/claires.png" class="projectsImg" alt="" />
             </div>
             <div id="right">
@@ -56,6 +89,23 @@
 
         <!-- Task Section -->
         <h2 class="categoryTitle">Tasks</h2>
+        <div class="itemProject">
+            <div id="left">
+                <img src="img/weather_app.png" class="projectsImg" alt="Python Weather Task">
+            </div>
+            <div id="right">
+                <h2>Weather App</h2>
+                <p>A weather application using weather data from OpenWeather.</p>
+                <p><strong>Front-EndLanguages: </strong> ReactJS, CSS, JSON and JavaScript</p>
+                <p><strong>Backend Languages: </strong> NodeJS (API)</p>
+                <p><strong>Progress: </strong> Completed</p>
+                <div class="projectLinks">
+                    <a href="projects/weather_app/docs/moredetails.php">More Information</a>
+                    <a href="https://github.com/joshmoran/weather_app-front_end" target="_blank">View on GitHub - Frontend</a>
+                    <a href="https://github.com/joshmoran/weather_app-back_end" target="_blank">View on GitHub - Backend</a>
+                </div>
+            </div>
+        </div>
         <div class="itemProject">
             <div id="left">
                 <img src="img/weather.png" class="projectsImg" alt="Python Weather Task">
@@ -212,9 +262,6 @@
                 </div>  
             </div>
         </div>
-       
-        
-       
     </div>
     <?php
     include "inc/footer.php";
